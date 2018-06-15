@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.colorPickDiv {
+    position: relative;
+    background-color: WhiteSmoke;
+    border: 1px solid LightGrey;
+    padding-top: 20px;
+}
+
+.childDiv {
+    vertical-align:middle;
+    width: 70%;
+    margin: 0 auto;
+}
+.coloration {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 8%;
+    right: 5%;
+}
+#valueDiv {
+    box-shadow: 0px -5px 10px LightGrey;
+    background-color: WhiteSmoke;
+    border: 1px solid LightGrey;
+    border-top-width: 0;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}

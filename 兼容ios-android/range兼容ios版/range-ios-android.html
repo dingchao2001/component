@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;"/>
+    <title>range</title>
+    <link rel="stylesheet" href="./range.css">
+</head>
+<script src="./jquery.js"></script>
+<body>
+<div class="range">
+    <span class="title">亮度</span>
+    <div class="track" id="trackId">
+        <div><span></span></div>
+    </div>
+</div>
+<div class="range">
+    <span class="title">亮度</span>
+    <div class="track" id="trackId2">
+        <div><span></span></div>
+    </div>
+</div>
+<script src="range.js"></script>
+<script>
+    var data,data2;
+    var color = "#2523fa";
+    var color2 = "#faea39"
+    newRange('trackId',color);
+    newRange('trackId2',color2);
+</script>
+</body>
+</html>

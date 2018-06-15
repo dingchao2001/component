@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;"/>
+    <title>range</title>
+    <link rel="stylesheet" href="./range.css">
+    <script src="./jquery.js"></script>
+</head>
+<body>
+<div class="range">
+    <span>亮度</span><input  id="snrPollInterval" type="range" min="1" max="100" value="60">
+</div>
+<div class="range" style="margin-top: 30px">
+    <span>亮度</span><input  id="snrPollInterval2" type="range" min="1" max="100" value="60">
+</div>
+<script src="range.js"></script>
+<script>
+    var data;
+    var data2;
+    var obj = { min: 0, max: 100, step: 1, callback: ''}
+    var obj2 = { min: 0, max: 90, step: 1, callback: ''}
+    var color = '#ffbb05'
+    var color2 = '#13b7ea'
+    newRange('snrPollInterval',obj,color);
+    newRange('snrPollInterval2',obj2,color2);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;"/>
+    <title>Title</title>
+    <link rel="stylesheet" href="./color.css">
+</head>
+<html>
+<body>
+<div class="colorPickDiv">
+    <div class="childDiv">
+        <canvas id="canvas">Your browser does not support canvas</canvas>
+    </div>
+    <div id="colorDiv" class="coloration"></div>
+</div>
+<div class="colorPickDiv">
+    <div class="childDiv">
+        <canvas id="canvas2">Your browser does not support canvas</canvas>
+    </div>
+    <div id="colorDiv2" class="coloration"></div>
+</div>
+<script src="color.js"></script>
+<script>
+     var rgb,rgb2;
+     newColorDisc(10, "canvas", "colorDiv");
+     newColorDisc(20, "canvas2", "colorDiv2");
+</script>
+</body>
+</html>

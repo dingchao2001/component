@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.range {
+    position: relative;
+    padding: 5px 0;
+}
+.range .title {
+    display: block;
+    text-align: center;
+    width: 15%;
+}
+.range .track {
+    width: 80%;
+    position: absolute;
+    left: 15%;
+    height: 100%;
+    top:0;
+}
+.range .track div {
+    height: 4px;
+    width: 100%;
+    background: #ebeff4;
+    position: absolute;
+    top: 50%;
+    margin-top: -2px;
+    border-radius: 2px;
+}
+.range .track div span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #059CFA;
+    position: absolute;
+    top: -8px;
+    left:0;
+}

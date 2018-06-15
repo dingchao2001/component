@@ -1,0 +1,42 @@
+input[type="range"] {
+    -webkit-appearance: none; /*去除默认样式*/
+    background-color: #ebeff4;
+    border-radius: 2px;
+    width: 80% !important;
+    -webkit-appearance: none;
+    height: 4px;
+    padding: 0;
+    border: none;
+    /*input的长度为80%，margin-left的长度为10%*/
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; /*去除默认样式*/
+    cursor: default;
+    top: 0;
+    height: 20px;
+    width: 20px;
+    transform: translateY(0px);
+    background: #006eb3;
+    border-radius: 15px;
+    border: 5px solid #006eb3;
+}
+input[type="range"] {
+    outline: none;
+}
+.range{
+    position: relative;
+}
+.range span{
+    display: inline-block;width: 10%;
+    text-align: center;
+}
+.range input[type="range"] {
+    position: absolute;top: 8px;left: 15%;
+}
+@media screen and (max-width: 330px) {
+    .range span{
+        display: inline-block;width: 15%;
+        text-align: center;
+    }
+}
